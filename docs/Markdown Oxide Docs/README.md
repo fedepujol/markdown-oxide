@@ -5,7 +5,6 @@
 
 # Docs
 
-
 Here are some recommended links from our documentation website, <https://oxide.md>
 
 ## Recommended Links
@@ -19,7 +18,6 @@ Here are some recommended links from our documentation website, <https://oxide.m
 # Quick Start
 
 Get started with Markdown-oxide as fast as possible! (Mac + Linux)
-
 Set up the PKM for your text editor...
 
 - [Neovim](#Neovim)
