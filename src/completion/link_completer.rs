@@ -723,7 +723,9 @@ impl LinkCompletion<'_> {
                 Self::DailyNote(daily) => {
                     daily.relative_name(completer) == Some(completer.entered_refname())
                 }
-                link_completion => link_completion.refname(completer) == completer.entered_refname(),
+                link_completion => {
+                    link_completion.refname(completer) == completer.entered_refname()
+                }
             }),
             filter_text: Some(filter_text.to_string()),
             documentation: preview_referenceable(vault, &referenceable)
